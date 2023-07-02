@@ -9,7 +9,7 @@ const NumberSelector = () => {
             {arrNumber.map((value, i) => (
                 <Box key={i} onClick={() => setSelectedNumber(value)}>
                     {value}
-                </Box>
+                </Box >
             ))}
         </div>
     )
